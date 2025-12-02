@@ -1,20 +1,20 @@
-TravelNote — Offline Map, Photos, and Diary Entries
+## TravelNote — Offline Map, Photos, and Diary Entries
 
-Overview
+### Overview
 
 - Built to showcase offline‑friendly UX with a map, GPS, photo capture, and local persistence. Uses OpenStreetMap tiles, so no API keys are required.
 
-Highlights
+### Highlights
 
 - Map + GPS: `flutter_map` with current location marker.
 - Photos: Pick from gallery or camera and store locally.
 - Diary: Entries saved as JSON in app documents; images written to files.
 
-Tech
+### Tech
 
 - Flutter · Dart · flutter_map · geolocator · image_picker · path_provider · UUID
 
-Architecture
+### Architecture
 
 - UI: `Home` with two tabs (Map, Diary)
 - Domain: `DiaryEntry` model (JSON)
@@ -27,7 +27,7 @@ Screenshots
 - ![Diary](docs/screenshots/diary.png)
 - ![Add Entry](docs/screenshots/add_entry.png)
 
-Run
+### Run
 
 - `flutter pub get`
 - `flutter run`
